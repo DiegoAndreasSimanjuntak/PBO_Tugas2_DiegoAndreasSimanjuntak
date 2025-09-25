@@ -3,16 +3,14 @@ public class Pengurangan {
         int x, y, z;
 
         x = 42;
-        y = x--;   // y = 42, x = 41
+        y = x--;  
 
-        // tampilkan nilai x dan y
         System.out.println("Setelah y = x-- :");
         System.out.println("x = " + x + ", y = " + y);
 
-        z = --x;   // x turun dulu baru masuk ke z → x = 40, z = 40
+        z = --x;  
 
-        // tampilkan nilai x dan z
-        System.out.println("Setelah z = --x :");
+        System.out.println("\nSetelah z = --x :");
         System.out.println("x = " + x + ", z = " + z);
     }
 }

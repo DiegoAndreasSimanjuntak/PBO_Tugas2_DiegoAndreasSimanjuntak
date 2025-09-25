@@ -8,9 +8,9 @@ public class Penambahan {
         System.out.println("Setelah y = x++ :");
         System.out.println("x = " + x + ", y = " + y);
 
-        z = ++x;   // x naik dulu baru masuk ke z → x = 44, z = 44
+        z = ++x; 
 
-        System.out.println("Setelah z = ++x :");
+        System.out.println("\nSetelah z = ++x :");
         System.out.println("x = " + x + ", z = " + z);
     }
 }
