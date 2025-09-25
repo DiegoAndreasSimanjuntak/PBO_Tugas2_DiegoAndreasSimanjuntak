@@ -6,8 +6,8 @@ public class Pengurangan2 {
         x = 5;
         w = 5;
 
-        y = 8 - x--;  // y = 8 - 5 = 3, lalu x jadi 4
-        z = 8 - --w;  // w turun dulu (4), jadi z = 8 - 4 = 4
+        y = 8 - x--; 
+        z = 8 - --w;
 
         System.out.println("Hasil Pengurangan2:");
         System.out.println("x = " + x);
